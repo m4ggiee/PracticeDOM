@@ -1,0 +1,22 @@
+.div{
+    display: none;
+}
+
+#btn1{
+    border: 0;
+    background-color: blue;
+    padding: 10px 24px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+#btn2{
+    border: 0;
+    background-color: yellow;
+    padding: 10px 24px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+
