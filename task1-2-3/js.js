@@ -1,8 +1,13 @@
 //1----------------------------------------------------------------------------------
-document.getElementById('input');
-document.getElementById('input').addEventListener('click', function(event){
-    console.log('Thanks for clicking');
-    document.getElementById('hi').classList.remove('div');
+let input = document.querySelector('input');
+let infoDiv = document.querySelector('div');
+
+input.addEventListener('focus', function() {
+    infoDiv.style.display = 'block';
+});
+
+input.addEventListener('blur', function() {
+    infoDiv.style.display = 'none';
 });
 
 //2----------------------------------------------------------------------------------
